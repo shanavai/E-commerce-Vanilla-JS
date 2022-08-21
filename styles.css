@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --primaryColor: #7dbffd;
+  --primaryColor: #9e8350;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -143,7 +143,8 @@ body {
 .product-img {
   display: block;
   width: 100%;
-  min-height: 12rem;
+  min-height: 180px ;
+  max-height: 180px;
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
